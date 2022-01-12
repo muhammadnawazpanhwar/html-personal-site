@@ -1,0 +1,74 @@
+<!--HYPER TEXT MARKUP LANGUAGE
+go to https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf to download html cheatsheet
+please read out all comments carefully
+write html to insert this boiler plate code(boiler plate is a code template  that you can reuse for different projects) automatically but
+it will work only if the emmet plugin is installed, for more emmet shortcuts search for "docs.emmet.io/cheat-sheet"
+to see boiler plate for differnt versios of html type version name in atom and then hit tab for example html:4t
+ go to packages on top bar click on atom bautify and then click on bautify to automatically beautify your code to make it more easy to read-->
+<!DOCTYPE html> <!-- declaration of document type which will tell the browser that what is the version of html that we are using   -->
+<html lang="en" dir="ltr">
+<!-- this line tells the browser that html code is atarting from here and will end till closing tag -->
+
+<head>
+  <!-- holds information about the web page and it tells the browser how it should handle the page-->
+  <meta charset="utf-8">
+  <!-- the mata elements gives ectra data or associated data to you html document and we are telling the browser taht when it opens
+      this file that all the text inside our web page is encoded using UTF 8 encoding system
+      you can go to unicode-table.com to select symbols and emojis to use in your web-->
+  <title> Muhammad's Personal site </title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color:#eeeeee;">   <!--style ="background-color: rosybrown;"-->
+  <table cellspacing="25">
+    <tr>
+      <td>
+        <img src="mnp.jpg" alt="Muhammad's image" height="150"> <!--you can also give a link if you want to fetch the image from internet,to set width use"width=""-->
+      </td>
+      <td><h1> Muhammad Nawaz Panhwar </h1>
+        <!--<em> </em>will make the code italic that is inside it we can also use <i></i> tag or element but em is more efficient because it tells the browser
+          additional information like style etc
+        <b></b> tag(physical state ) and <strong></strong> (logical state )tag are used  to bold text  again strong is more beneficient-->
+        <p><em>Assistant Comissioner of <strong>Hyderabad, Sindh, Pakistan.</strong></em></p>
+        <!--it will show the written lines in the format of paragraph-->
+        <p> I like Tea </p></td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <!-- Used to create an unordered lis-->
+    <li>Village: Ghulam Ali Panhwar's Primary School Bhit Shah </li>
+    <li>The City's School Bhit Shah</li>
+  </ul>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>C++</td>
+      <td>Java</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Dart</td>
+    </tr>
+    <tr>
+      <td>Flutter</td>
+      <td>Web Development</td>
+    </tr>
+  <hr>
+  </table>
+  <hr>
+  <a href="friends.html">To see MNP's friends click here</a>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contactme.html">Contacts</a>
+  <br>
+  <a download href ="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download HTML Cheatsheet</a> <!--if you only want to set path for
+    another page and dont want to add download options then just remove download buttons from above line of code-->
+
+
+</body>
+
+</html>
